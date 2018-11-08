@@ -13,7 +13,7 @@ namespace MyUtility
 {
 	/// <summary>
 	/// 自作ユーティリティクラス
-	/// 注：クラスとファイルを分割していますので注意
+	/// 注：クラスと複数ファイルに分割していますので注意
 	/// </summary>
 	public partial class MyUtility
 	{
