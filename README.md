@@ -1,7 +1,6 @@
-# UnityMyUtility
-
 ## 概要  
-Unity用の自作ユーティリティ
+Unity用の自作ユーティリティ  
+ほぼ自分用  
 <br /> 
 ## 作成時時の環境  
 Windows7 Pro 64bit  
