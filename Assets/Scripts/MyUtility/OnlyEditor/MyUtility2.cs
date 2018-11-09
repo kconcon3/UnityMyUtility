@@ -1,4 +1,7 @@
-﻿using UnityEditor;
+﻿
+#if UNITY_EDITOR
+
+using UnityEditor;
 using UnityEngine;
 using System.IO;
 using System.Collections.Generic;
@@ -20,7 +23,8 @@ namespace MyUtility
 	{
 		/// <summary>
 		/// Resourcesディレクトリ以外のオブジェクトにアクセスすることができる。Resourcesディレクトリのオブジェクトにもアクセスできる。
-		/// 但し、Assetsフォルダ以下かつアセットと認識できるファイルのみ可能。
+		/// 注1：エディタ時のみ使用可能。
+		/// 注2：Assetsフォルダ以下かつアセットと認識できるファイルのみ可能。
 		/// </summary>
 		public static class NonResourcesAsset
 		{	
@@ -82,3 +86,5 @@ namespace MyUtility
 		}
 	}
 }
+
+#endif
